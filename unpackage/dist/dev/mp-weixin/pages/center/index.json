@@ -1,6 +1,6 @@
 {
   "navigationBarTitleText": "uView-center",
   "usingComponents": {
-    "u-link": "/uview-ui/components/u-link/u-link"
+    "mi-map": "/components/mi-map/mi-map"
   }
 }

@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"uview-ui/components/u-button/u-button":1,"uview-ui/components/u-link/u-link":1};
+/******/ 		var cssChunks = {"uview-ui/components/u-button/u-button":1,"components/mi-map/mi-map":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"uview-ui/components/u-button/u-button":"uview-ui/components/u-button/u-button","uview-ui/components/u-link/u-link":"uview-ui/components/u-link/u-link"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"uview-ui/components/u-button/u-button":"uview-ui/components/u-button/u-button","components/mi-map/mi-map":"components/mi-map/mi-map"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

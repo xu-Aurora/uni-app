@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.controls-location.data-v-5580d9e4 {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+.server-place.data-v-5580d9e4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background: #ffffff;
+  z-index: 999;
+}
+.server-place .map-tools.data-v-5580d9e4 {
+  position: fixed;
+  width: 100%;
+  bottom: 30rpx;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.server-place .map-tools .my-location.data-v-5580d9e4 {
+  width: 90%;
+  margin: 0 auto;
+  height: 120rpx;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 20rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+.server-place .map-tools .my-location .left.data-v-5580d9e4 {
+  background: #3384ff;
+  width: 120rpx;
+  height: 100%;
+}
+.server-place .map-tools .my-location .right.data-v-5580d9e4 {
+  margin-left: 20rpx;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.server-place .map-tools .my-location .right .title.data-v-5580d9e4 {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.server-place .map-tools .my-location .right .text.data-v-5580d9e4 {
+  font-size: 26rpx;
+  width: 500rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #3384FF;
+  margin-top: 10rpx;
+}
+.server-place .map-tools .start-place.data-v-5580d9e4 {
+  width: 85%;
+  margin: 0 auto;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+.server-place .map-tools .start-place .place.data-v-5580d9e4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.server-place .map-tools .start-place .place .title.data-v-5580d9e4 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #111;
+}
+.server-place .map-tools .start-place .place .text.data-v-5580d9e4 {
+  font-size: 28rpx;
+  color: #3384FF;
+  font-weight: bold;
+  width: 450rpx;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.server-place .map-tools .start-place .tip.data-v-5580d9e4 {
+  font-size: 22rpx;
+  color: #666;
+  margin-top: 15rpx;
+}
+.server-place .map-tools .start-place .sure.data-v-5580d9e4 {
+  margin-top: 15rpx;
+  color: #FFFFFF;
+  background: #212121;
+  font-weight: blod;
+  font-size: 32rpx;
+}
+
